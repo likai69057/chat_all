@@ -37,3 +37,10 @@ MainWindow::~MainWindow()
     }
 }
 
+void MainWindow::SlotSwitchReg()
+{
+    setCentralWidget(_reg_dlg);
+    _login_dlg->hide();
+    _reg_dlg->show();
+}
+

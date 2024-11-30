@@ -110,7 +110,7 @@
               </size>
              </property>
              <property name="text">
-              <string>M密码：</string>
+              <string>密码：</string>
              </property>
             </widget>
            </item>
@@ -137,7 +137,7 @@
               </size>
              </property>
              <property name="text">
-              <string>确认密码：</string>
+              <string>确认：</string>
              </property>
             </widget>
            </item>
@@ -157,6 +157,12 @@
           <layout class="QHBoxLayout" name="horizontalLayout_6">
            <item>
             <widget class="QLabel" name="verify_label">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
              <property name="maximumSize">
               <size>
                <width>16777215</width>

@@ -17,6 +17,9 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+public:
+    void SlotSwitchReg();
+
 private:
     Ui::MainWindow *ui;
     LoginDialog * _login_dlg;
